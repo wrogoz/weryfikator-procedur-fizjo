@@ -1,0 +1,25 @@
+h1{
+	text-align: center;
+	margin:0 auto;
+}
+.firmy{
+	width: 300px;
+	margin:0 auto;
+}
+div{
+	width: 40%;
+	margin:0 auto;
+	background: grey;
+	color: white;
+}
+.nazwaFirmy{
+text-align: center;
+margin:20px auto;
+
+}
+td{
+	margin-right: 50px;
+}
+div table{
+	margin:0 auto;
+}
