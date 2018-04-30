@@ -1,25 +1,51 @@
+*{
+	margin: 0 0;
+box-sizing: border-box;
+}
+body {
+	background-color: #1E1F21;
+	color: #AFAFB3;
+}
+
 h1{
 	text-align: center;
-	margin:0 auto;
 }
-.firmy{
-	width: 300px;
-	margin:0 auto;
+h2{
+	text-align: center;
+	color:white;
+	margin-bottom: 10px;
 }
-div{
-	width: 40%;
-	margin:0 auto;
-	background: grey;
-	color: white;
-}
-.nazwaFirmy{
-text-align: center;
-margin:20px auto;
+.container{
+	border-radius: 5%;
+	width: 270px;
+	background-color: #333E7A;
+	margin: 20px 20px;
+	padding: 10px 10px;
+	display: inline-block;
+
 
 }
-td{
-	margin-right: 50px;
+.box{
+	
+	width: 250px;
+display: inline-flex;
+
+	margin-left: 10px;
+	padding-bottom: 10px;
+
 }
-div table{
-	margin:0 auto;
+
+.firstCol{
+	
+	width: 60%;
+	margin-right: 10px;
+	
+	
+}
+.secondCol{
+	
+	width: 30%;
+	
+
+	
 }
