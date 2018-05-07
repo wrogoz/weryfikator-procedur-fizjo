@@ -38,6 +38,9 @@ footer{
 footer span{
 	font-weight: bold;
 }
+button{
+	border-radius: 6px;
+}
 .mainCont{
 	  position: relative;
  width: 75%;
@@ -46,14 +49,16 @@ footer span{
 }
 .container{
 
-	border-radius: 5%;
+	border-radius: 40px 40px 40px 40px;
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
 	width: 270px;
 	height: 540px;
 	background-color: #313d43;
 	display: inline-table;
 	margin: 32px 20px;
 	padding: 10px 10px;
-	
+	font-family: 'Roboto', sans-serif;
 	-webkit-box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
 	-moz-box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
 	box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
@@ -65,7 +70,7 @@ footer span{
 	width: 250px;
 display: inline-flex;
 
-	margin-left: 10px;
+	margin-left: 25px;
 	padding-bottom: 10px;
 
 }
@@ -83,4 +88,11 @@ display: inline-flex;
 	
 
 	
+}
+
+.red{
+color: rgb(200, 0, 0);
+}
+.green{
+	color: green;
 }
