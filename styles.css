@@ -1,18 +1,14 @@
 *{
 	margin: 0 0;
-
 }
 body {
 	background-color: #262829;
 	color: white;
-
 }
 header{
 	background-color: black;
 	height: 100px;
-
 }
-
 h1{
 	color: #ffffff;
 	text-align: center;
@@ -20,7 +16,6 @@ h1{
 	margin: auto;
 	padding-top: 25px;
 	font-size: 29px;
-
 }
 h2{
 	text-align: center;
@@ -40,15 +35,15 @@ footer span{
 }
 button{
 	border-radius: 6px;
+	color: black;
 }
-.mainCont{
-	  position: relative;
- width: 75%;
 
-  margin: 0 auto;
+.mainCont{
+	  	position: relative;
+		width: 75%;
+		margin: 0 auto;
 }
 .container{
-
 	border-radius: 40px 40px 40px 40px;
 	-moz-border-radius: 40px 40px 40px 40px;
 	-webkit-border-radius: 40px 40px 40px 40px;
@@ -62,34 +57,21 @@ button{
 	-webkit-box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
 	-moz-box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
 	box-shadow: 7px 10px 5px -2px rgba(0,0,0,1);
-
 }
-
-.box{
-		
+.box{	
 	width: 250px;
-display: inline-flex;
-
+	display: inline-flex;
 	margin-left: 25px;
 	padding-bottom: 10px;
-
 }
 
 .firstCol{
-	
 	width: 60%;
-	margin-right: 10px;
-	
-	
+	margin-right: 10px;	
 }
-.secondCol{
-	
-	width: 30%;
-	
-
-	
+.secondCol{	
+	width: 30%;		
 }
-
 .red{
 color: rgb(200, 0, 0);
 }
