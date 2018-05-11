@@ -39,8 +39,9 @@ button{
 }
 
 .mainCont{
-	  	position: relative;
-		width: 75%;
+	  	display: flex;
+	  	flex-wrap: wrap;
+		
 		margin: 0 auto;
 }
 .container{
