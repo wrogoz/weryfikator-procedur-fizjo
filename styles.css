@@ -4,17 +4,18 @@
 body {
 	background-color: #262829;
 	color: white;
+	height: 100vh;
 }
 header{
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	background-color: black;
-	height: 100px;
+	height: 17%;
 }
 h1{
 	color: #ffffff;
-	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	margin: auto;
-	padding-top: 25px;
 	font-size: 29px;
 }
 h2{
@@ -24,10 +25,13 @@ h2{
 
 }
 footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: black;
-	height: 57px;
-	text-align: center;
-	padding-top: 22px;
+	height: 10%;
+	
+	
 	font-size: 21px;
 }
 footer span{
@@ -85,4 +89,18 @@ color: rgb(200, 0, 0);
 	  
 	 
 }
+}
+@media (max-width:580px){
+	h1{
+		font-size: 1.3rem;
+	}
+	footer{
+		font-size: 1rem;
+	}   
+	 
+}
+@media (max-width:400px){
+	h1{
+		font-size: 1rem;
+	}
 }
