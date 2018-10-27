@@ -41,8 +41,7 @@ button{
 .mainCont{
 	  	display: flex;
 	  	flex-wrap: wrap;
-		
-		margin: 0 auto;
+		justify-content: center;
 }
 .container{
 	border-radius: 40px 40px 40px 40px;
@@ -78,4 +77,12 @@ color: rgb(200, 0, 0);
 }
 .green{
 	color: green;
+}
+@media (max-width:1004px){
+	.mainCont{
+		display: flex;
+		justify-content: center;
+	  
+	 
+}
 }
